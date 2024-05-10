@@ -29,7 +29,19 @@ namespace coreWebApplication.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public IActionResult Message()
+        /*
+         * Action Result 
+         *  ViewResult              - View()
+         *  EmptyResult             - 
+         *  ContentResult           - Content()
+         *  FileContentResult       - File()
+         *  RedirectResult          - Redirect()
+         *  JsonResult              - Json()
+         *  PartialViewResult       - PartialView()
+         *  JavaScriptResult        - JavaScript()
+         *  HttpUnauthorizedResult  - 
+         * */
+        public ViewResult Message()
         {
             return View();
         }
