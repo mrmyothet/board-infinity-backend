@@ -20,5 +20,10 @@ namespace coreWebApplication.Controllers
 
             return View();
         }
+
+        public IActionResult Details() { return View(); }
+
+        public IActionResult Message() { return View(); }
+
     }
 }
