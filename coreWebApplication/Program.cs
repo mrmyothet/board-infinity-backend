@@ -1,3 +1,5 @@
+using coreWebApplication;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -23,6 +25,8 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.UseSession();
+
+app.UseMiddleware<MyMiddleware>();
 
 // Convention Routing 
 app.MapControllerRoute(

@@ -9,15 +9,17 @@ namespace coreWebApplication
     {
         private readonly RequestDelegate _next;
 
-        public MyMiddleware(RequestDelegate next)
+        private readonly ILogger _logger;
+        public MyMiddleware(RequestDelegate next, ILoggerFactory logFactory)
         {
             _next = next;
+            _logger = logFactory.CreateLogger("MyMiddleware");
         }
 
-        public Task Invoke(HttpContext httpContext)
+        public async Task Invoke(HttpContext httpContext)
         {
-
-            return _next(httpContext);
+            _logger.LogInformation("MyMiddleware executing ...");
+            await _next(httpContext);   // calling next middleware
         }
     }
 
