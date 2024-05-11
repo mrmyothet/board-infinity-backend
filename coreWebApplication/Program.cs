@@ -16,8 +16,9 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+// Convention Routing 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Customer}/{action=Index}/{id?}");
 
 app.Run();

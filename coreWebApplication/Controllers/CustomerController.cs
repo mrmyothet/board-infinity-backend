@@ -23,6 +23,9 @@ namespace coreWebApplication.Controllers
 
         public IActionResult Details() { return View(); }
 
+        // Attribute Routing
+        //[Route("~/")]
+        [Route("/sample/message")]
         public IActionResult Message() { return View(); }
 
     }
