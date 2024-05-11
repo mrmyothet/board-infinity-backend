@@ -21,12 +21,24 @@ namespace coreWebApplication.Controllers
             return View();
         }
 
-        public IActionResult Details() { return View(); }
+        public IActionResult Details() 
+        {
+            ViewBag.Message = "Customer Details";
+            ViewBag.CustomerCount = lstCustomer.Count();
+            ViewBag.CustomerList = lstCustomer;
+            return View(); 
+        }
 
         // Attribute Routing
         //[Route("~/")]
         [Route("/sample/message")]
-        public IActionResult Message() { return View(); }
+        public IActionResult Message() 
+        {
+            ViewData["Message"] = "Customer Message";
+            ViewData["CustomerCount"] = lstCustomer.Count();
+            ViewData["CustomerList"] = lstCustomer;
+            return View(); 
+        }
 
     }
 }

@@ -4,5 +4,29 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Customer Details</h1>
+<h1>@ViewBag.Message</h1>
 
+<p>
+There are @ViewBag.CustomerCount customers added to the list.
+</p>
+
+<table>
+    <thead>
+        <tr>
+            <td width="50px">Id</td>
+            <td width="300px">Name</td>
+            <td width="100px">Amount</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.CustomerList)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Amount</td>
+            </tr>
+        }
+    </tbody>
+    
+</table>
