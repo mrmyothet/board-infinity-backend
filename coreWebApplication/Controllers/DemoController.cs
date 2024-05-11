@@ -44,5 +44,19 @@ namespace coreWebApplication.Controllers
             return RedirectToAction("Index");
         }
 
+        // http://localhost:5187/Demo/querystring
+        // 
+        public IActionResult QueryString()
+        {
+            string name = "Default Name";
+
+            if (!string.IsNullOrEmpty(HttpContext.Request.Query["name"]))
+                name = HttpContext.Request.Query["name"];
+
+            ViewBag.Name = name;
+
+            return View();
+        }
+
     }
 }
