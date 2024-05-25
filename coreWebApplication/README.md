@@ -9,7 +9,7 @@
 - Cookies 
 - QueryString
 
-### Reading :
+##### Reading :
 - [Add Custom Middleware in ASP.NET Core Application](https://www.tutorialsteacher.com/core/how-to-add-custom-middleware-aspnet-core)
 - [ASP.NET Core Request Processing Pipeline](https://dotnettutorials.net/lesson/asp-net-core-request-processing-pipeline/)
 - [Filters in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-5.0)
@@ -18,3 +18,13 @@
 - [ASP.NET Core: Built-in IoC Container](https://www.tutorialsteacher.com/core/internals-of-builtin-ioc-container-in-aspnet-core)
 - [Use multiple environments in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-5.0)
 - [Handle errors in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0)
+
+
+### Forms and Validation
+- Weakly Typed Forms
+- Strongly Typed Forms
+- Model Binding 
+- Server Side Validation
+
+##### Reading : 
+- [ASP.NET Core Forms](https://www.c-sharpcorner.com/article/creating-user-registration-form-in-asp-net-core-mvc-web-application/)
