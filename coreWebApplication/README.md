@@ -27,4 +27,9 @@
 - Server Side Validation
 
 ##### Reading : 
-- [ASP.NET Core Forms](https://www.c-sharpcorner.com/article/creating-user-registration-form-in-asp-net-core-mvc-web-application/)
+- [Creating User Registration Form](https://www.c-sharpcorner.com/article/creating-user-registration-form-in-asp-net-core-mvc-web-application/)
+- [Weakly Typed and Strongly Typed Forms](https://www.codeproject.com/Articles/1078491/Creating-Forms-in-ASP-NET-MVC)
+- [Model Binding](https://www.c-sharpcorner.com/article/use-of-model-binder-in-mvc-and-web-api/)
+- [Handling Forms Post](https://www.c-sharpcorner.com/article/posting-form-data-from-Asp-Net-page-to-another-url/)
+- [Forms Validations - Server Side and Client Side](https://www.computer.org/publications/tech-news/trends/client-side-form-validation)
+- [Custom Validations](https://www.coursera.org/learn/backend-development-dot-net-fullstack/supplement/tMMq4/further-reading-on-forms-and-validation)

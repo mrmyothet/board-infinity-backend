@@ -35,6 +35,10 @@ namespace coreWebApplication.Models
         [Required(ErrorMessage ="Select the Marital Status...")]
         [Display(Name ="Marital Status")]
         public string MaritalStatus { get; set; }
+
+        [NotMapped]
+        [Min18Years]
+        public DateTime DateofBirth { get; set; }
     }
 
     /*
