@@ -1,0 +1,21 @@
+﻿@model coreWebApplication.Models.UserAccount
+
+@{
+    ViewData["Title"] = "StronglyTypedLogin";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Strongly Typed Login</h1>
+
+@using (Html.BeginForm("LoginSuccess", "Account", FormMethod.Post))
+{
+    <div>
+        User Name : @Html.TextBoxFor(x=> x.UserName)
+    </div>    
+    <div>
+        Password : @Html.PasswordFor(x=> x.Password)
+    </div>
+    <div>
+        <input type="submit" value="Login" />
+    </div>
+}
