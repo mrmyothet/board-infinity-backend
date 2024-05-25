@@ -1,0 +1,14 @@
+﻿@model IList<coreWebApplication.Models.UserAccount>
+@{
+    ViewData["Title"] = "UserList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>User List</h1>
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>User Name : @item.UserName - Password: @item.Password</li>
+    }
+</ul>
