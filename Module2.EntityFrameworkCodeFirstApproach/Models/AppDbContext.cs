@@ -9,7 +9,7 @@ namespace Module2.EntityFrameworkCodeFirstApproach.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                "Server=MYOTHETPC\\MSSQLSERVER2012;Database=CodeFirstDB;Integrated Security=true;TrustServerCertificate=true"
+                "Server=MYOTHETPC\\MSSQLEXPRESS2016;Database=CodeFirstDB;Integrated Security=true;TrustServerCertificate=true"
             );
         }
     }
