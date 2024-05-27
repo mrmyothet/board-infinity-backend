@@ -1,5 +1,6 @@
 ﻿For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
+# Module 1
 
 ### Data Passing Techniques
 - ViewData
@@ -33,3 +34,17 @@
 - [Handling Forms Post](https://www.c-sharpcorner.com/article/posting-form-data-from-Asp-Net-page-to-another-url/)
 - [Forms Validations - Server Side and Client Side](https://www.computer.org/publications/tech-news/trends/client-side-form-validation)
 - [Custom Validations](https://www.coursera.org/learn/backend-development-dot-net-fullstack/supplement/tMMq4/further-reading-on-forms-and-validation)
+
+----
+
+# Module 2
+
+### Working with Data Using Entity Framework Core
+
+##### Reading : 
+- [Introduction to Entity Framework](https://learn.microsoft.com/en-us/ef/core/)
+- [Creating Database Using Code First](https://www.c-sharpcorner.com/article/create-a-new-database-using-code-first-in-entity-framework/)
+- [Database CRUD Operations](https://dotnettutorials.net/lesson/crud-operations-in-entity-framework/)
+- [Calling Stored Procedure and Functions](https://www.c-sharpcorner.com/UploadFile/ff2f08/call-store-procedure-from-entity-framework/)
+- [Listing, Paging, Sorting using WebGrid](https://www.c-sharpcorner.com/blogs/mvc-searching-sorting-and-paging-in-web-grid)
+
