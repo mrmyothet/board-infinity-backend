@@ -1,8 +1,8 @@
-﻿using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using Module2.EFCoreCodeFirstApproach.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using Module2.EFCoreDatabaseFirstApproach.Models;
+using System.Diagnostics;
 
-namespace Module2.EFCoreCodeFirstApproach.Controllers
+namespace Module2.EFCoreDatabaseFirstApproach.Controllers
 {
     public class HomeController : Controller
     {
@@ -26,12 +26,7 @@ namespace Module2.EFCoreCodeFirstApproach.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(
-                new ErrorViewModel
-                {
-                    RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
-                }
-            );
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

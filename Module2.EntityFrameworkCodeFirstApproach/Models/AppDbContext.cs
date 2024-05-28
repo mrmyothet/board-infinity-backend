@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Module2.EntityFrameworkCodeFirstApproach.Models
+namespace Module2.EFCoreCodeFirstApproach.Models
 {
     public class AppDbContext : DbContext
     {

@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Module2.EntityFrameworkCodeFirstApproach.Models;
+using Module2.EFCoreCodeFirstApproach.Models;
 
 #nullable disable
 
-namespace Module2.EntityFrameworkCodeFirstApproach.Migrations
+namespace Module2.EFCoreCodeFirstApproach.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     partial class AppDbContextModelSnapshot : ModelSnapshot

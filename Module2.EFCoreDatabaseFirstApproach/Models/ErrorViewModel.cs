@@ -1,4 +1,4 @@
-namespace Module2.EFCoreCodeFirstApproach.Models
+namespace Module2.EFCoreDatabaseFirstApproach.Models
 {
     public class ErrorViewModel
     {
