@@ -29,8 +29,11 @@ public partial class DatabaseFirstDbContext : DbContext
 
             entity.ToTable("Customer");
 
+            entity.Property(e => e.City)
+                .HasMaxLength(50)
+                .IsUnicode(false);
             entity.Property(e => e.CustomerName)
-                .HasMaxLength(1)
+                .HasMaxLength(50)
                 .IsUnicode(false);
         });
 
