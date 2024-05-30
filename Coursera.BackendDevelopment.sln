@@ -14,7 +14,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module2.CoreWebMVCApplicati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module2.EFCoreCodeFirstApproach", "Module2.EntityFrameworkCodeFirstApproach\Module2.EFCoreCodeFirstApproach.csproj", "{38F26B24-AA69-4C94-B8E1-A1E54D475D33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module2.EFCoreDatabaseFirstApproach", "Module2.EFCoreDatabaseFirstApproach\Module2.EFCoreDatabaseFirstApproach.csproj", "{065B1D3E-53EF-4CEC-92D9-2E622118F28D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module2.EFCoreDatabaseFirstApproach", "Module2.EFCoreDatabaseFirstApproach\Module2.EFCoreDatabaseFirstApproach.csproj", "{065B1D3E-53EF-4CEC-92D9-2E622118F28D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module2.AuthenticationApplication", "Module2.AuthenticationApplication\Module2.AuthenticationApplication.csproj", "{747A9DDB-7E2F-4E04-9766-80ED43A0BD63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{065B1D3E-53EF-4CEC-92D9-2E622118F28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{065B1D3E-53EF-4CEC-92D9-2E622118F28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{065B1D3E-53EF-4CEC-92D9-2E622118F28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747A9DDB-7E2F-4E04-9766-80ED43A0BD63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747A9DDB-7E2F-4E04-9766-80ED43A0BD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747A9DDB-7E2F-4E04-9766-80ED43A0BD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747A9DDB-7E2F-4E04-9766-80ED43A0BD63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
