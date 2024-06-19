@@ -57,3 +57,13 @@
 - Create user login flow for your application
 - How to access logged in user details 
 - How to create base controller for your application 
+
+##### Reading : 
+- [ASP.NET MVC Pipeline](https://www.c-sharpcorner.com/article/mvc-architecture-its-pipeline4/)
+- [ASP.NET MVC Filters](https://www.tutorialsteacher.com/mvc/filters-in-asp.net-mvc)
+- [Filters Configurations and Execution](https://www.tutorialsteacher.com/mvc/filters-in-asp.net-mvc)
+- [Creating Custom ASP.NET MVC Filters](https://www.tutorialsteacher.com/articles/create-custom-filters)
+- [Security : Forms Authentication](https://www.c-sharpcorner.com/article/forms-authentication-in-mvc/)
+- [Creating User Login Flow](https://www.c-sharpcorner.com/UploadFile/cd3310/using-mvc-Asp-Net-tools-create-simple-login-form/)
+- [Accessing Logged In User Details](https://learn.microsoft.com/en-us/aspnet/mvc/overview/security/create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset)
+- [Creating Base Controller](https://www.tutorialsteacher.com/mvc/mvc-controller)
