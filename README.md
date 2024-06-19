@@ -1,6 +1,6 @@
-﻿For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+﻿# [Backend Development for .Net Full Stack](https://www.coursera.org/learn/backend-development-dot-net-fullstack/home/welcome)
 
-# Module 1
+## Module 1
 
 ### Data Passing Techniques
 - ViewData
@@ -37,7 +37,7 @@
 
 ----
 
-# Module 2
+## Module 2
 
 ### Working with Data Using Entity Framework Core
 
@@ -48,3 +48,12 @@
 - [Calling Stored Procedure and Functions](https://www.c-sharpcorner.com/UploadFile/ff2f08/call-store-procedure-from-entity-framework/)
 - [Listing, Paging, Sorting using WebGrid](https://www.c-sharpcorner.com/blogs/mvc-searching-sorting-and-paging-in-web-grid)
 
+### ASP.NET MVC Pipeline and Security
+
+- How the pipeline works 
+- Different types of filters
+- Create custom filters
+- Security in ASP.NET MVC
+- Create user login flow for your application
+- How to access logged in user details 
+- How to create base controller for your application 
