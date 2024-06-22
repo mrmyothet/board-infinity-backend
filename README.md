@@ -92,9 +92,10 @@
 ---
 
 
-## https://www.coursera.org/account/accomplishments/certificate/FQ8WQCEH44P2
+## Accomplishment Certificates
 
-## https://coursera.org/share/1acac88129955a2bee32290ba1c9a8d5 
+- https://www.coursera.org/account/accomplishments/certificate/FQ8WQCEH44P2
+- https://coursera.org/share/1acac88129955a2bee32290ba1c9a8d5 
 
 <object data="https://www.coursera.org/account/accomplishments/certificate/FQ8WQCEH44P2" type="application/pdf" width="700px" height="700px">
     <embed src="https://www.coursera.org/account/accomplishments/certificate/FQ8WQCEH44P2">
