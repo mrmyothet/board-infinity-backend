@@ -95,3 +95,9 @@
 ## https://www.coursera.org/account/accomplishments/certificate/FQ8WQCEH44P2
 
 ## https://coursera.org/share/1acac88129955a2bee32290ba1c9a8d5 
+
+<object data="https://www.coursera.org/account/accomplishments/certificate/FQ8WQCEH44P2" type="application/pdf" width="700px" height="700px">
+    <embed src="https://www.coursera.org/account/accomplishments/certificate/FQ8WQCEH44P2">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://www.coursera.org/account/accomplishments/certificate/FQ8WQCEH44P2">Download PDF</a>.</p>
+    </embed>
+</object>
