@@ -20,7 +20,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module2.AuthenticationAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module3.coreWebAPI", "Module3.coreWebAPI\Module3.coreWebAPI.csproj", "{4DA5487C-4978-45E7-9117-BEA9FDA96B5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module3.Module3.ConsumeWebAPI", "Module3.Module3.ConsumeWebAPI\Module3.Module3.ConsumeWebAPI.csproj", "{A7C6EA03-B17D-4E81-905E-1BFFEBB47B1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module3.ConsumeWebAPI", "Module3.Module3.ConsumeWebAPI\Module3.ConsumeWebAPI.csproj", "{A7C6EA03-B17D-4E81-905E-1BFFEBB47B1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
