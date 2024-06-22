@@ -77,3 +77,14 @@
 - HTTP request and responses
 - Configuring routing 
 - Content negotiation and media type formater
+
+### ASP.NET Web API Concepts
+
+- Routing
+- Types of routing
+- Route constraints
+- Types of Action Result 
+- Content negotiation
+- Use of media type formaters
+- Model binding and model validation
+- Handling validation errors
