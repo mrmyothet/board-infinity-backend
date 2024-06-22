@@ -1,0 +1,18 @@
+﻿CREATE DATABASE SampleDB
+
+USE SampleDB
+
+CREATE TABLE Employees(
+EmployeeID int IDENTITY(1,1) NOT NULL PRIMARY KEY, 
+Name varchar(20) NOT NULL, 
+City varchar(20) NOT NULL,
+Department varchar(20) NOT NULL, 
+Gender varchar (6) NOT NULL,
+)
+
+INSERT INTO Employees Values ('MYO THET', 'Yangon' , 'Development', 'Male');
+INSERT INTO Employees Values ('MYO MIN THET', 'Mae Sai' , 'Testing', 'Male');
+INSERT INTO Employees Values ('Aye Myo Naing', 'Yangon' , 'Testing', 'Female');
+INSERT INTO Employees Values ('Su Sandar Lin', 'Mae Sai' , 'Development', 'Male');
+
+PM> Scaffold-DbContext "Server=MYOTHETPC\MSSQLSERVER2012; Database=SampleDB; Integrated Security=True; TrustServerCertificate=True; User Id=sa; Password=admin123!" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
