@@ -67,3 +67,13 @@
 - [Creating User Login Flow](https://www.c-sharpcorner.com/UploadFile/cd3310/using-mvc-Asp-Net-tools-create-simple-login-form/)
 - [Accessing Logged In User Details](https://learn.microsoft.com/en-us/aspnet/mvc/overview/security/create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset)
 - [Creating Base Controller](https://www.tutorialsteacher.com/mvc/mvc-controller)
+
+## Module 3
+### Building RESTful Services with ASP.NET Web API
+
+- Introduction to ASP.NET Web API
+- CRUD operation
+- Test Web API using postman
+- HTTP request and responses
+- Configuring routing 
+- Content negotiation and media type formater
