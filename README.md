@@ -3,14 +3,16 @@
 ## Module 1
 
 ### Data Passing Techniques
+
 - ViewData
-- ViewBag 
+- ViewBag
 - TempData
 - Session
-- Cookies 
+- Cookies
 - QueryString
 
 ##### Reading :
+
 - [Add Custom Middleware in ASP.NET Core Application](https://www.tutorialsteacher.com/core/how-to-add-custom-middleware-aspnet-core)
 - [ASP.NET Core Request Processing Pipeline](https://dotnettutorials.net/lesson/asp-net-core-request-processing-pipeline/)
 - [Filters in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-5.0)
@@ -20,14 +22,15 @@
 - [Use multiple environments in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-5.0)
 - [Handle errors in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0)
 
-
 ### Forms and Validation
+
 - Weakly Typed Forms
 - Strongly Typed Forms
-- Model Binding 
+- Model Binding
 - Server Side Validation
 
-##### Reading : 
+##### Reading :
+
 - [Creating User Registration Form](https://www.c-sharpcorner.com/article/creating-user-registration-form-in-asp-net-core-mvc-web-application/)
 - [Weakly Typed and Strongly Typed Forms](https://www.codeproject.com/Articles/1078491/Creating-Forms-in-ASP-NET-MVC)
 - [Model Binding](https://www.c-sharpcorner.com/article/use-of-model-binder-in-mvc-and-web-api/)
@@ -35,13 +38,14 @@
 - [Forms Validations - Server Side and Client Side](https://www.computer.org/publications/tech-news/trends/client-side-form-validation)
 - [Custom Validations](https://www.coursera.org/learn/backend-development-dot-net-fullstack/supplement/tMMq4/further-reading-on-forms-and-validation)
 
-----
+---
 
 ## Module 2
 
 ### Working with Data Using Entity Framework Core
 
-##### Reading : 
+##### Reading :
+
 - [Introduction to Entity Framework](https://learn.microsoft.com/en-us/ef/core/)
 - [Creating Database Using Code First](https://www.c-sharpcorner.com/article/create-a-new-database-using-code-first-in-entity-framework/)
 - [Database CRUD Operations](https://dotnettutorials.net/lesson/crud-operations-in-entity-framework/)
@@ -50,15 +54,16 @@
 
 ### ASP.NET MVC Pipeline and Security
 
-- How the pipeline works 
+- How the pipeline works
 - Different types of filters
 - Create custom filters
 - Security in ASP.NET MVC
 - Create user login flow for your application
-- How to access logged in user details 
-- How to create base controller for your application 
+- How to access logged in user details
+- How to create base controller for your application
 
-##### Reading : 
+##### Reading :
+
 - [ASP.NET MVC Pipeline](https://www.c-sharpcorner.com/article/mvc-architecture-its-pipeline4/)
 - [ASP.NET MVC Filters](https://www.tutorialsteacher.com/mvc/filters-in-asp.net-mvc)
 - [Filters Configurations and Execution](https://www.tutorialsteacher.com/mvc/filters-in-asp.net-mvc)
@@ -69,13 +74,14 @@
 - [Creating Base Controller](https://www.tutorialsteacher.com/mvc/mvc-controller)
 
 ## Module 3
+
 ### Building RESTful Services with ASP.NET Web API
 
 - Introduction to ASP.NET Web API
 - CRUD operation
 - Test Web API using postman
 - HTTP request and responses
-- Configuring routing 
+- Configuring routing
 - Content negotiation and media type formater
 
 ### ASP.NET Web API Concepts
@@ -83,7 +89,7 @@
 - Routing
 - Types of routing
 - Route constraints
-- Types of Action Result 
+- Types of Action Result
 - Content negotiation
 - Use of media type formaters
 - Model binding and model validation
@@ -91,8 +97,10 @@
 
 ---
 
-
 ## Accomplishment Certificates
 
 - [.NET Full Stack Foundation](https://coursera.org/share/1acac88129955a2bee32290ba1c9a8d5)
+- [Frontend Development using React](https://1drv.ms/b/s!ApTanr6lVq20hM0E2hH0EXI5OkoGtg?e=ytONfu)
 - [Backend Development for .Net Full Stack](https://coursera.org/share/15a764efe444f9ef5133413bb84fa8b4)
+
+##### [.NET FullStack Developer Specialization Certificate](https://1drv.ms/b/s!ApTanr6lVq20hM0F8FK3bdRIo7IXCw?e=iyu5WD)
